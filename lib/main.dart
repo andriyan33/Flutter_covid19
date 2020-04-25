@@ -1,3 +1,4 @@
+import 'package:covid19/splashscreen_view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Home(),
+        home: SplashScreenPage(),
         title: 'Corona Goblok',
       ),
     );
